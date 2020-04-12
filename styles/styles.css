@@ -1,6 +1,10 @@
     body{
         margin: 0;
         padding: 0;
+        background-image: url(../imgs/bgpage.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
     }
     .header{
         position: relative;
