@@ -10,7 +10,7 @@
         background-position: center;
         background-size: 100%;
         padding: 100px;
-        width:100%;
+        width:80.5%;
     }
     .header2{
         margin: 0;
@@ -52,10 +52,10 @@
     }
     li {
         float:left;
-        width: 33%;
+        width: 25%;
         text-align: center;
     }
-    li a, .dropbtn{
+    li a{
         font-family: Arial, Helvetica, sans-serif;
         display: block;
         padding: 10px;
@@ -63,39 +63,44 @@
         text-decoration: none;
         color: white;
     }
-    li a:hover, .dropdown:hover{
+    li a:hover{
         margin: 0;
         background: lightgrey;
         color: black;
     }
-    li.dropbtn{
+    .content{
+        float: center;
         margin: 0;
-        display: inline-block;
-    }
-    .dropcontenido{
-        margin: 0;
-        text-align: center;
-        display: none;
-        position:absolute;
-        min-width: 160px;
-        padding: 10px;
+        padding: 0;
         z-index: 1;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        width: 65%;
+        background-color: cornsilk;
+        border-radius: 20px;
     }
-    .dropcontenido a{
-        margin: 0;
-        color: white;
-        text-decoration: none;
-        display: block;
+    .contenttexttitle{
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        margin-left: 15px;
+        margin-top: 25px;
+        margin-bottom: 0;
     }
-    .dropdown:hover .dropcontenido{
-        margin: 0;
-        display: block;
-    }
-    .column{
+    .contenttext{
         padding: 15px;
         width: 45%;
-        float: left;
-        text-align: center;
+        float: center;
+        text-align: left;
         font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
+        opacity:100%;
+        color: black;
+    }
+    hr{
+        width:95%;
+        padding: 0;
+        color: lightgrey;
     }
